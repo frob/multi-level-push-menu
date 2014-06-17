@@ -1,5 +1,9 @@
 # Multi-level-push-menu
 
+This is a version of the Multilevelpushmenu js plug made to work with this [abandoned Drupal Module](https://drupal.org/node/2218061).
+
+Following is the unaltered readme.
+
 This jQuery plugin is inspired by [Codrops](http://tympanus.net/codrops/2013/08/13/multi-level-push-menu/) MultiLevelPushMenu but unlike it not relaying on CSS 3D Transforms and therefore functional in older browsers too (i.e. IE 8).
 
 ###Documentation, examples and code samples [http://multi-level-push-menu.make.rs](http://multi-level-push-menu.make.rs)
@@ -478,7 +482,7 @@ When HTML markup is present.
         $(document).ready(function(){
     			$('#menu').multilevelpushmenu();
     		});
-    	</script>	
+    	</script>
 
 When menu items are provided as JS Array.
 
@@ -488,7 +492,7 @@ When menu items are provided as JS Array.
             menu: arrMenu
           });
         });
-      </script>  
+      </script>
 
 Full list of options is provided below.
 
@@ -644,7 +648,7 @@ Full list of exposed metdods is provided below.
 
     /**
      * Add/Remove menu item(s) with sub-menus
-     * 
+     *
      */
     // Add
     $('#menu').multilevelpushmenu( 'additems' , itemsArray , $addToMenu , position );
@@ -654,25 +658,25 @@ Full list of exposed metdods is provided below.
 
     /**
      * Redraw menus
-     * 
+     *
      */
     $('#menu').multilevelpushmenu( 'redraw' );
 
     /**
      * Visible menus
-     * 
+     *
      */
     $('#menu').multilevelpushmenu( 'visiblemenus' );
 
     /**
      * Hidden menus
-     * 
+     *
      */
     $('#menu').multilevelpushmenu( 'hiddenmenus' );
 
     /**
      * Propagate event to underneath layer
-     * 
+     *
      */
      $( '#menu' ).multilevelpushmenu( 'propagateevent' , $( '#menu' ) , 'mousedown' );
 
